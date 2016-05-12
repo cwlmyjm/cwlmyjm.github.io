@@ -1,1 +1,17 @@
 baseurl: /site
+
+markdown: kramdown
+highlighter: rouge
+permalink: /news/:year/:month/:day/:title/
+excerpt_separator: ""
+
+timezone: America/Los_Angeles
+
+ollections:
+  docs:
+    output: true
+
+twitter:
+  username: jekyllrb
+
+logo: img/logo-2x.png
